@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -microsoft-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+.collapse-content .fa.fa-heart:hover {
+  color: #167723 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #a10d68 !important;
+}
+
+.card {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+#custom-btn {
+  float: right;
+}
